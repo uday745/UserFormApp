@@ -13,7 +13,14 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.0</version>
     </parent>
-
+    <properties>
+             <!-- SonarQube Settings -->
+             <sonar.projectKey>user-form-app</sonar.projectKey>
+             <sonar.projectName>Userform App</sonar.projectName>
+             <sonar.host.url>http://10.0.28.179:9000</sonar.host.url>
+             <sonar.login>${settings.servers.sonar.username}</sonar.login>
+    </properties>
+   
     <dependencies>
         <!-- Spring Boot Web -->
         <dependency>

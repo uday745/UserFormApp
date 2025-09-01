@@ -18,7 +18,7 @@
              <sonar.projectKey>user-form-app</sonar.projectKey>
              <sonar.projectName>Userform App</sonar.projectName>
              <sonar.host.url>http://10.0.28.179:9000</sonar.host.url>
-             <sonar.token>${env.SONAR_SECRET}</sonar.token>
+             <sonar.token>${settings.servers.sonar.password}</sonar.token>
     </properties>
    
     <dependencies>

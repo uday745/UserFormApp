@@ -17,7 +17,7 @@
              <!-- SonarQube Settings -->
              <sonar.projectKey>user-form-app</sonar.projectKey>
              <sonar.projectName>Userform App</sonar.projectName>
-             <sonar.host.url>http://10.0.28.179:9000</sonar.host.url>
+             <sonar.host.url>http://15.207.98.84:9000</sonar.host.url>
              <sonar.token>${settings.servers.sonar.password}</sonar.token>
     </properties>
    
